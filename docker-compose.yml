@@ -1,0 +1,9 @@
+version: '3'
+services:
+        web:
+          container_name: kmmm_web
+          build: ./config/web
+          ports:
+                  - 8080:80
+          volumes:
+                  - ./src:/var/www/html
