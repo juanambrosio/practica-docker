@@ -1,9 +1,14 @@
 version: '3'
 services:
-        web:
-          container_name: kmmm_web
-          build: ./config/web
-          ports:
-                  - 8080:80
-          volumes:
-                  - ./src:/var/www/html
+  web:
+    container_name: kmmm_web
+    build: ./config/web
+    ports:
+      - 80:80
+    environment:
+      - HOST_NAME=${HOST_NAME}
+    volumes:
+      - ./config/apache/sites-available/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./logs/apache/access.log:/var/log/apache2/access.log
+      - ./logs/apache/error.log:/var/log/apache2/error.log
+      - ./src:/var/www/html

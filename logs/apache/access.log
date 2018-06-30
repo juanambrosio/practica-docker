@@ -1,0 +1,4 @@
+172.18.0.2:80 172.18.0.1 - - [30/Jun/2018:19:27:35 +0000] "GET / HTTP/1.1" 200 1898 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+172.18.0.2:80 172.18.0.1 - - [30/Jun/2018:19:27:36 +0000] "GET /favicon.ico HTTP/1.1" 404 504 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+172.18.0.2:80 172.18.0.1 - - [30/Jun/2018:19:28:08 +0000] "GET / HTTP/1.1" 200 1898 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+172.18.0.2:80 172.18.0.1 - - [30/Jun/2018:19:28:11 +0000] "GET / HTTP/1.1" 200 1898 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
